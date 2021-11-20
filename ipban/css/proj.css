@@ -1,0 +1,180 @@
+body {
+	background-color: #F5F9FF;
+}
+
+
+.corpo {
+	width: 100%;
+	margin-top:  150px;
+	margin-left:  10px;
+}
+
+.navbar {
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	background-color: #F5F9FF;
+	margin-top: 10px;
+
+}
+
+.nav-link {
+	display: inline-block;
+	margin-right: 13%;
+	margin-left: 13%;
+	text-decoration: none;
+
+}
+
+
+.nav-link-right {
+	display: inline;
+	float: right;
+	text-decoration: none;
+}
+
+.side-item {
+
+}
+
+.ms-bold-18 {
+	font: Bold 18px Montserrat;
+	color: #1C2759;
+}
+
+.ms-bold-22 {
+	font: Bold 22px Montserrat;
+	color: #1C2759;
+}
+
+.ms-error {
+	font: Bold 13px Montserrat;
+	color: #DB2C27;
+}
+
+.ms-ok {
+	font: Bold 13px Montserrat;
+	color: #63E08E;
+}
+
+.ms-medium-18 {
+	font: 18px Montserrat;
+	font-size: Medium;
+}
+
+.logo {
+	font-size: 80px;
+	color: #1C2759;
+	margin-left: 10px;
+}
+
+.logo-login {
+	text-align: center;
+	font-size: 100px;
+	color: #1C2759;
+	margin-bottom: 50px;
+}
+
+input {
+	border: 1px solid #1C275933;
+	border-radius: 10px;
+	font: 14px Montserrat;
+	font-size: Medium;
+}
+
+label {
+	font: 16px Montserrat;
+	font-size: Medium;
+	color: #1C2759;
+
+}
+
+input.login {
+	border: 1px solid #1C275933;
+	border-radius: 10px;
+	font: 14px Montserrat;
+	font-size: Medium;
+	flex: 0 0 200px;
+	margin-left: 10px;
+}
+
+label.login {
+
+	font: 16px Montserrat;
+	font-size: Medium;
+	color: #1C2759;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+th {
+	font: Bold 16px Montserrat;
+	color: #1C2759;
+}
+
+.block-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	font: 14px Montserrat;
+	font-size: Medium;
+	color: #1C2759;
+
+}
+
+button {
+	border-radius: 10px;
+	height: 30px;
+	width: 200px;
+	background: #63E08E  no-repeat padding-box;
+	border: 2px solid #63E08E;
+	font: Bold 14px Montserrat;
+	color: white !important;
+	cursor: pointer;
+}
+
+button.row-button {
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	height: 30px;
+	width: 100px;
+}
+
+button.red {
+	background: #DB2C27 0% 0% no-repeat padding-box;
+	border: 2px #DB2C27;
+	border-style: solid;
+}
+
+button.orange {
+	background: #FFBA00 0% 0% no-repeat padding-box;
+	border: 2px #FFBA00;
+	border-style: solid;
+
+}
+
+
+
+.folder {
+	box-shadow: 0px 5px 10px #1C275933;
+	border-radius: 15px;
+	width: 90%;
+	padding: 15px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+
+}
+
+.users {
+	width: 100%;
+}
+
+.form-login {
+	background-color: white;
+}
+
+
